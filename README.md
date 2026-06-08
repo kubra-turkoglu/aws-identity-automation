@@ -20,10 +20,15 @@ aws-identity-automation/
 └── requirements.txt    # Project dependencies
 ```
 ## 🛠️ Features Roadmap
-📦 Phase 1:
-Identity Baseline & Reporting (Current)IAM Identity Inventory Collection: Automated discovery of all IAM assets.Auditor-Ready Outputs: Point-in-time snapshot reporting in Excel/CSV format for compliance evidence.SIEM-Ready Logs: Structured JSON outputs optimized for ingestion into SIEM platforms (Splunk, Microsoft Sentinel, Elastic).
-🛡️ Phase 2:
-Access Governance & Risk Assessment (Upcoming)MFA Compliance Verification: Identification of active accounts missing Multi-Factor Authentication.Credential Lifecycle Auditing: Detection of stale IAM Access Keys exceeding 90 days (Credential Exposure risks).Dormant Account Discovery: Flagging inactive users to support the Principle of Least Privilege (PoLP).
+###📦 Phase 1: Identity Baseline & Reporting (Current)
+IAM Identity Inventory Collection: Automated discovery of all IAM assets.
+Auditor-Ready Outputs: Point-in-time snapshot reporting in Excel/CSV format for compliance evidence.
+SIEM-Ready Logs: Structured JSON outputs optimized for ingestion into SIEM platforms (Splunk, Microsoft Sentinel, Elastic).
+
+###🛡️ Phase 2: Access Governance & Risk Assessment (Upcoming)
+MFA Compliance Verification: Identification of active accounts missing Multi-Factor Authentication.
+Credential Lifecycle Auditing: Detection of stale IAM Access Keys exceeding 90 days (Credential Exposure risks).
+Dormant Account Discovery: Flagging inactive users to support the Principle of Least Privilege (PoLP).
 
 ## 🚀 Getting Started
 ### 1. Prerequisites
