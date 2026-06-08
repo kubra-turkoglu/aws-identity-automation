@@ -44,8 +44,10 @@ The tool will automatically create a persistent directory structure and output y
 
 ## 📊 Sample Output Format
 The toolkit standardizes IAM metadata into actionable security logs:
-Audit_Date,Entity_Type,Username,User_Id,Arn,Created_At,Status
-2026-06-09 UTC,IAM_User,admin_test,AIDAX...,arn:aws:iam:...,2026-01-10,Active
+Markdown
+| Audit_Date | Entity_Type | Username | User_Id | Arn | Created_At | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-06-09 UTC | IAM_User | admin_test | AIDAX... | arn:aws:iam:... | 2026-01-10 | Active |
 
 ## 👉 View Full Artifacts:
 Download Auditor Excel Report (CSV)
