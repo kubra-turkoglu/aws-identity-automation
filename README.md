@@ -25,22 +25,22 @@ Identity Baseline & Reporting (Current)IAM Identity Inventory Collection: Automa
 🛡️ Phase 2:
 Access Governance & Risk Assessment (Upcoming)MFA Compliance Verification: Identification of active accounts missing Multi-Factor Authentication.Credential Lifecycle Auditing: Detection of stale IAM Access Keys exceeding 90 days (Credential Exposure risks).Dormant Account Discovery: Flagging inactive users to support the Principle of Least Privilege (PoLP).
 
-# 🚀 Getting Started
-  # 1. Prerequisites
-     Ensure you have Python 3.8+ installed and a local emulator like LocalStack running for safe, non-destructive testing.
-  # 2. Installation
-     Clone the repository and install the required security dependencies:
+## 🚀 Getting Started
+### 1. Prerequisites
+Ensure you have Python 3.8+ installed and a local emulator like LocalStack running for safe, non-destructive testing.
+### 2. Installation
+Clone the repository and install the required security dependencies:
   
-  ```Bash
-  git clone [https://github.com/kubra-turkoglu/aws-identity-automation.git](https://github.com/kubra-turkoglu/aws-identity-automation.git)
-  cd aws-identity-automation
-  pip install -r requirements.txt
-  ```
-  # 3. Running the Audit
-    Navigate to the notebooks/ directory and execute the interactive playbooks, or run the baseline inventory script directly.
-    The tool will automatically create a persistent directory structure and output your data:
-      📊 CSV Evidence: Saved to reports/iam_inventory_[timestamp].csv
-      🗂️ JSON SIEM Feed: Saved to reports/iam_inventory_[timestamp].json
+```Bash
+git clone [https://github.com/kubra-turkoglu/aws-identity-automation.git](https://github.com/kubra-turkoglu/aws-identity-automation.git)
+cd aws-identity-automation
+pip install -r requirements.txt
+```
+### 3. Running the Audit
+Navigate to the notebooks/ directory and execute the interactive playbooks, or run the baseline inventory script directly.
+The tool will automatically create a persistent directory structure and output your data:
+📊 CSV Evidence: Saved to reports/iam_inventory_[timestamp].csv
+🗂️ JSON SIEM Feed: Saved to reports/iam_inventory_[timestamp].json
 
 ## 📊 Sample Output Format
 The toolkit standardizes IAM metadata into actionable security logs:
