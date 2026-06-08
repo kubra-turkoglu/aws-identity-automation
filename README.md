@@ -3,7 +3,8 @@ Markdown
 
 This repository functions as an AWS IAM Security Audit & Access Governance Toolkit designed from a SOC Analyst perspective. Instead of focusing on infrastructure provisioning, this toolkit automates risk mitigation, privilege minimization, threat hunting, and compliance verification across AWS Identity and Access Management (IAM).
 
-It addresses the fundamental question asked by security auditors, compliance teams, and SOC analysts: **"What identities currently exist in our AWS environment, and what is their actual security posture?"**
+It addresses the fundamental question asked by security auditors, compliance teams, and SOC analysts: 
+**"What identities currently exist in our AWS environment, and what is their actual security posture?"**
 
 ## 📂 Repository Structure
 
