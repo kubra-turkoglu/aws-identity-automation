@@ -1,0 +1,10 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Yerel testlerde üreteceğiniz zaman damgalı çöpleri engelle
+reports/iam_inventory_[0-9]*.csv
+reports/iam_inventory_[0-9]*.json
