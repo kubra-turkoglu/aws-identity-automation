@@ -25,7 +25,7 @@ Identity Baseline & Reporting (Current)IAM Identity Inventory Collection: Automa
 🛡️ Phase 2:
 Access Governance & Risk Assessment (Upcoming)MFA Compliance Verification: Identification of active accounts missing Multi-Factor Authentication.Credential Lifecycle Auditing: Detection of stale IAM Access Keys exceeding 90 days (Credential Exposure risks).Dormant Account Discovery: Flagging inactive users to support the Principle of Least Privilege (PoLP).
 
-## 🚀 Getting Started
+# 🚀 Getting Started
   # 1. Prerequisites
      Ensure you have Python 3.8+ installed and a local emulator like LocalStack running for safe, non-destructive testing.
   # 2. Installation
